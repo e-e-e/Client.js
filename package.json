@@ -17,9 +17,11 @@
   "scripts": {
     "docs": "jsdoc -c jsdoc.json README.md lib",
     "test": "mocha",
-    "test": "mocha -w",
+    "tdd": "mocha -w",
     "lint": "eslint bin/* lib test",
-    "browserify": "browserify . -s ldf -u stream -o sparql-iterator-browser.js"
+    "browserify": "browserify . -s ldf -u stream -o sparql-iterator-browser.js",
+    "travis": "NODE_ENV=test istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly",
+    "report-coverage": "cat ./coverage/lcov.info | coveralls"
   },
   "dependencies": {
     "asynciterator": "^1.1.0",
@@ -30,7 +32,9 @@
   "devDependencies": {
     "browserify": "^15.1.0",
     "chai": "^3.5.0",
+    "coveralls": "^3.0.0",
     "eslint": "^3.9.1",
+    "istanbul": "^0.4.5",
     "jsdoc": "^3.4.2",
     "mocha": "^3.1.2",
     "pre-commit": "^1.1.3",

@@ -1,6 +1,7 @@
 # Sparql Iterator
 
 [![Build Status](https://travis-ci.org/e-e-e/sparql-iterator.svg?branch=master)](https://travis-ci.org/e-e-e/sparql-iterator)
+[![Coverage Status](https://coveralls.io/repos/github/e-e-e/sparql-iterator/badge.svg?branch=master)](https://coveralls.io/github/e-e-e/sparql-iterator?branch=master)
 
 A fast and simple sparql interface for [Linked Data Fragments](http://linkeddatafragments.org) and [hyper-graph-db](https://github.com/e-e-e/hyper-graph-db).
 
