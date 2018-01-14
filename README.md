@@ -3,9 +3,9 @@
 [![Build Status](https://travis-ci.org/e-e-e/sparql-iterator.svg?branch=master)](https://travis-ci.org/e-e-e/sparql-iterator)
 [![Coverage Status](https://coveralls.io/repos/github/e-e-e/sparql-iterator/badge.svg?branch=master)](https://coveralls.io/github/e-e-e/sparql-iterator?branch=master)
 
-A fast and simple sparql interface for [Linked Data Fragments](http://linkeddatafragments.org) and [hyper-graph-db](https://github.com/e-e-e/hyper-graph-db).
+A fast and simple [SPARQL](https://www.w3.org/TR/sparql11-protocol/) query interface for [Linked Data Fragments](http://linkeddatafragments.org) and [hyper-graph-db](https://github.com/e-e-e/hyper-graph-db).
 
-Note: This is a fork of [Linked Data Fragments Client](https://github.com/LinkedDataFragments/Client.js) which includes only the code for the sparql interator. It has been modified to accept hyper-graph-db as a client.
+*Note:* This is a fork of [Linked Data Fragments Client](https://github.com/LinkedDataFragments/Client.js) which includes only the code for the sparql interator. It has been modified to accept hyper-graph-db as a client.
 
 ## Installation
 
