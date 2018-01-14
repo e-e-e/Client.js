@@ -2,4 +2,3 @@ node_modules
 docs
 config.json
 *.log
-ldf-client-browser.js
