@@ -2,3 +2,5 @@ node_modules
 docs
 config.json
 *.log
+
+sparql-iterator-browser.js
